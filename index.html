@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Incorrect Quote Generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --vertical-spacing: 5%;
+    }
+
+    /* Apply the Assistant font to all text */
+    body {
+      font-family: 'Assistant', Arial, sans-serif;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="main-container">
+      <div class="left-image"></div>
+      <div class="right-image"></div>
+      <div class="title-container">
+        <img src="Images/incorrect-quotes-generator-title-1000-600.png" alt="Background Title">
+      </div>
+      <div class="container">
+        <div class="quote-inputs">
+          <div class="names-container">
+            <input type="text" id="author1Input" placeholder="Name 1">
+            <input type="text" id="author2Input" placeholder="Name 2">
+            <input type="text" id="author3Input" placeholder="Name 3">
+            <input type="text" id="author4Input" placeholder="Name 4">
+            <input type="text" id="author5Input" placeholder="Name 5">
+            <input type="text" id="author6Input" placeholder="Name 6">
+          </div>
+          <button id="generateButton">Generate Quote</button>
+        </div>
+          <div class="feedback-container">
+            <div class="feedback-text">
+              <p>If you found a bug, got a quote idea, or just wanna help out. Then press the button and fill out whichever part of the form you want!</p>
+            </div>
+            <div class="button-container">
+           <a href="https://docs.google.com/forms/d/e/1FAIpQLSdx3uIzR_n-F6TCSRGKNcKOpDBI0GB9OY2723Lwl6uucnBAlA/viewform?usp=sf_link" class="feedback-button">Press me</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote-container">
+        <blockquote id="quoteDisplay"></blockquote>
+      </div>
+    </div>
+
+    <div class="filter-container">
+      <div class="filter-container" style="--vertical-spacing: 10%;">
+        <!-- Checkbox inputs -->
+      </div>      
+      <div class="filter-wrapper">
+        <div class="filter-checkbox">
+          <label for="swearingFilter">Swearing</label>
+          <input type="checkbox" id="swearingFilter">
+        </div>
+        
+        <div class="filter-checkbox">
+          <label for="shippingFilter">Shipping</label>
+          <input type="checkbox" id="shippingFilter">
+        </div>
+        
+        <div class="filter-checkbox">
+          <label for="violenceFilter">Violence</label>
+          <input type="checkbox" id="violenceFilter">
+        </div>
+      
+        <!-- Move the "Scramble Names" checkbox here -->
+        <div class="filter-checkbox">
+          <label for="scrambleNames">Scramble Names</label>
+          <input type="checkbox" id="scrambleNames">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Below is for rotating stars -->
+  <script>
+    let leftStarState = {
+      rotation: 0,
+      translation: 0,
+      clickCount: 0
+    };
+
+    let rightStarState = {
+      rotation: 0,
+      translation: 0,
+      clickCount: 0
+    };
+
+    const leftImage = document.querySelector('.left-image');
+    const rightImage = document.querySelector('.right-image');
+
+    leftImage.addEventListener('click', function () {
+      leftStarState.clickCount++;
+      leftStarState.rotation = leftStarState.clickCount % 4 === 1 ? -45 : leftStarState.clickCount % 4 === 3 ? 45 : 0;
+      leftStarState.translation = leftStarState.clickCount % 4 === 1 || leftStarState.clickCount % 4 === 3 ? -60 : -50;
+
+      this.style.transform = `rotate(${leftStarState.rotation}deg) translateY(${leftStarState.translation}px)`;
+    });
+
+    rightImage.addEventListener('click', function () {
+      rightStarState.clickCount++;
+      rightStarState.rotation = rightStarState.clickCount % 4 === 1 ? 45 : rightStarState.clickCount % 4 === 3 ? -45 : 0;
+      rightStarState.translation = rightStarState.clickCount % 4 === 1 || rightStarState.clickCount % 4 === 3 ? -60 : -50;
+
+      this.style.transform = `rotate(${rightStarState.rotation}deg) translateY(${rightStarState.translation}px)`;
+    });
+
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

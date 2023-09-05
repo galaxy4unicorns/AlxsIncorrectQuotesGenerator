@@ -1,0 +1,231 @@
+html, body {
+  max-width: 100%;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding-bottom: 300px;
+  padding-top: 5px;
+}
+
+
+html {
+  background: linear-gradient(to bottom, #f7f9fd, #d8e3f3, #d8e3f3, #b4c3ee, #8ea4d4);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+:root {
+  --vertical-spacing: 5%;
+}
+
+.star {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.3s ease-in-out;
+  top: calc(var(--vertical-spacing) + 73%); /* Adjust the 73% as needed */
+  transform: translateY(-50%);
+}
+
+.left-image, .right-image {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.3s ease-in-out;
+  top: calc(var(--vertical-spacing) + 88%); /* Adjust the 53% as needed */
+  transform: translateY(-50%);
+}
+
+.main-container, .filter-container, .quote-container, .quote-inputs {
+  position: relative;
+  z-index: 2; /* Normal content is one layer above the stars */
+}
+
+.left-image {
+  background-image: url('Images/Yellow-Star-100x100.png');
+  left: 23%;
+}
+
+.right-image {
+  background-image: url('Images/Yellow-Star-100x100.png');
+  right: 23%;
+}
+
+.star-container {
+  position: absolute;
+  left: 70%;
+  top: 42%; /* Adjust the vertical position for larger screens */
+  margin-top: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-container {
+  text-align: center;
+  min-height: 300px;
+  position: relative;
+  padding: 10px;
+  margin-right: 0;
+  margin-top: 10px; /* Add some spacing from the top */
+}
+
+.title-container img {
+  max-width: 80%;
+  height: auto;
+  object-fit: contain;
+  width: 100%;
+}
+
+.quote-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 770px;
+  margin-top: 25px;
+  margin-left: 70px;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #000000;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 30px; /* Adjust the margin to move it back up */
+  margin-bottom: 20px;
+  max-width: 500px; /* Adjust the max-width to make the container narrower */
+  box-sizing: border-box;
+  margin-left: auto; /* Center the container horizontally */
+  margin-right: auto; /* Center the container horizontally */
+}
+
+#quoteDisplay {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  padding: 15px;
+  border: 3px solid #000000;
+  border-radius: 15px;
+  width: 220px;
+  height: 50px;
+  box-sizing: border-box;
+  margin: 5px;
+  font-size: 22px;
+  background-color: #ffffff;
+  color: #333;
+}
+
+#generateButton {
+  padding: 12px 25px;
+  background-color: #7d40a0;
+  color: white;
+  border: 3px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  grid-column: span 3;
+  margin-top: 20px; /* Add some spacing below the input boxes */
+  margin-right: 70px;
+}
+
+#generateButton:hover {
+  background-color: #713a91;
+  color: #ebebeb;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; /* Adjust the margin to move it further down from the quotes container */
+}
+
+
+.filter-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.filter-container label {
+  font-size: 20px;
+  margin-right: 5px;
+  padding-left: 5px; /* Add padding to the left of the labels */
+}
+
+
+
+/* Add margin-bottom to create spacing between checkboxes */
+.filter-container input[type="checkbox"] {
+  /* Hide the default checkboxes */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  margin-right: 25px; /* Adjust the value as needed */
+  margin-bottom: -6px; /* Add spacing between checkboxes */
+  position: relative;
+}
+
+/* Add custom appearance for the checked state */
+.filter-container input[type="checkbox"]:checked {
+  background-color: #7d40a0;
+  background-image: url("images/Tiny-Star-2.png");
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.feedback-container {
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 15px;
+  padding: 20px;
+  position: absolute;
+  bottom: -500px;
+  left: -50;
+  width: 20%;
+  height: 20%;
+  text-align: center;
+}
+
+.feedback-text {
+  margin-bottom: 20px; /* Adjust spacing between text and button */
+}
+
+.feedback-button {
+  text-decoration: none; /* Remove underlines from the link */
+  padding: 8px 15px;
+  background-color: #7d40a0;
+  color: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback-button:hover {
+  background-color: #713a91;
+  color: #ebebeb;
+}

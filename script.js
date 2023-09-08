@@ -40,12 +40,12 @@ const quotesLibrary = {
     { text: "{Name A}: What's a word that's a mix between 'sad' and 'mad'?<br>{Name B}: Disgruntled, miserable, desolated-<br>{Name C}: Smad<br>{Name B}:", tags: [] },
     { text: "{Name A}: Bye {Name B}! Bye {Name C} Bye {Name D}! Bye {Name E}! Bye {Name F}!  Bye {Name B}!<br>{Name C}: You said 'bye {Name B}' twice<br>{Name A}: I like {Name B}", tags: [] },
     { text: "{Name A}, setting down a card: Ace of spades!<br>{Name B}, Pulling out an Uno card: +4!<br>{Name C}, pulling out a Pokemon card: Jolteon, I choose you!!<br>{Name D}, trembling: What are we playing...", tags: [] },
-    { text: "{Name A}: When I die, I want {Name B} to lower me into my grave<br>{Name A}: So he can let me down one last time", tags: [] },
+    { text: "{Name A}: When I die, I want {Name B} to lower me into my grave<br>{Name A}: So they can let me down one last time", tags: [] },
     { text: "{Name A}: Do you ever want to talk about your emotions, {Name B}?<br>{Name B}: ... no.<br>{Name C}: I do!<br>{Name A}: I know, {Name C}<br>{Name C}: I'm sad!<br>{Name A}: I know, {Name C}", tags: [] },
     { text: "{Name A}, gently taps table:<br>{Name B}, taps back:<br>{Name C}: What are they doing?<br>{Name D}: Morse code<br>{Name A}, aggressively taps table:<br>{Name B}, slams hands down: YOU TAKE THAT BACK-", tags: [] },
     { text: "{Name A}: I need relationship advice<br>{Name B}, who's never felt the touch of a woman in their life: You've come to the right place", tags: [] },
     { text: "{Name A}: We've been conducting an ongoing study to see what {Name C} will and will not eat<br>{Name B}: Grass? Yes!<br>{Name A}: Moss? Yes!!<br>{Name B}: Leaves? Ohh, yes!<br>{Name A}: Shoelaces? Strange but true!<br>{Name B}: Worms? Sometimes!<br>{Name A}: Rocks? Usually nah<br>{Name B}: Twigs? Usually!<br>{Name A}: {Name E}'s cooking? Inconclusive!<br>{Name D}: How did you.. test this?<br>{Name A}: You just hand them stuff and say 'eat this' and if they eat it, they eat it<br>{Name D}: ... I don't know how to feel about this<br>{Name E}: IS THAT WHERE ALL MY SPARE SHOELACES WENT", tags: [] },
-    { text: "{Name A}: My father is not a man.<br>{Name B}: He is a one-spot Yelp review come to life", tags: [] },
+    { text: "{Name A}: My father is not a man.<br>{Name A}: He is a one-spot Yelp review come to life", tags: [] },
     { text: "{Name A}: {Name C} is mad at me, and I'm not sure why<br>{Name B}: Okay, did you talk before they got upset?<br>{Name A}: ... yes?<br>{Name B}: That's probably it", tags: [] },
     { text: "{Name A}, entering the room:<br>{Name A} seeing {Name B} and immediately leaves:<br>{Name B}, watching {Name A} leave: There's my monthly dose of {Name A}...", tags: [] },
     { text: "{Name A}: What are your goals?<br>{Name B}: To pet all dogs<br>{Name A}: No, fitness goals<br>{Name B}: To be able to run fast enough to pet all the dogs", tags: [] },
@@ -59,7 +59,7 @@ const quotesLibrary = {
     { text: "{Name A}: If I see the word gaslight one more time... I'm getting off the internet forever<br>{Name B}: You're not even seeing it that much<br>{Name C}: Yeah, it's all in your head", tags: [] },
     { text: "{Name A}: I'll never talk!<br>{Name B}, sharpening a knife: I have ways of making people talk<br>{Name A}:<br>{Name B}, cutting a piece of cake:<br>{Name A}: ... Can I have some?<br>{Name B}: Cake is for talkers", tags: [] },
     { text: "{Name A}: Have you ever heard the expression 'Don't judge a book by its cover'?<br>{Name B}: No<br>{Name A}: What about 'It's what's on the inside that counts'?<br>{Name B}: Nuh-uh<br>{Name A}: 'Looks can be deceiving'?<br>{Name B}: Doesn't ring a bell<br>{Name A}: What's wrong with you??<br>{Name B}: Oh, that one I've heard!", tags: [] },
-    { text: "{Name A}, putting their hands over {Name B}'s eyes: Guess who!<br>{Name B}: It's either {Name A} or the cold, clammy hands of death<br>{Name A}, pulling his hands away: It's {Name A}!<br>{Name B}: Dammit", tags: [] },
+    { text: "{Name A}, putting their hands over {Name B}'s eyes: Guess who!<br>{Name B}: It's either {Name A} or the cold, clammy hands of death<br>{Name A}, pulling their hands away: It's {Name A}!<br>{Name B}: Dammit", tags: [] },
     { text: "{Name A}: Look at this thing, I'm gonna call it a long horse<br>{Name B}: That's a giraffe<br>{Name A}: Oh<br>{Name A}:<br>{Name A}: Long horse it better", tags: [] },
     { text: "{Name A}: Were you dropped on your head as a child?<br>{Name B}: Bold of you to assume I was even held:<br>{Name A}:<br>{Name C}: {Name B}, we talked about this-", tags: [] },
     { text: "{Name A}: Good morning, cruel world!<br>{Name B}: That's not the phrase, Did you mean 'Goodbye'?<br>{Name A}: No, I meant good morning<br>{Name A}: This world may be cruel, but I'm still kickin'!<br>{Name B}: That really cheered me up!", tags: [] },
@@ -70,7 +70,7 @@ const quotesLibrary = {
     { text: "Kidnapper: We have your partner<br>{Name A}: You have {Name B}?<br>Kidnapper: Yeah<br>{Name A}: Good luck with that", tags: [] },
     { text: "{Name A}: Gods are stubborn<br>{Name A}: So am I", tags: [] },
     { text: "{Name A}, laying in bed: Get out of my room<br>{Name B}, standing just outside of the door frame with a smirk: I'm not in your room", tags: [] },
-    { text: "{Name A}: I trust {Name B}<br>{Name C}: You think he knows what he's doing?<br>{Name A}: I wouldn't go that far", tags: [] },
+    { text: "{Name A}: I trust {Name B}<br>{Name C}: You think they knows what their doing?<br>{Name A}: I wouldn't go that far", tags: [] },
     { text: "{Name A}: Why me?<br>{Name B}: Because people like you. You're quiet, you say 'excuse me', you look like little birds help you get dressed in the morning", tags: [] },
     { text: "{Name A}: I have everything under control<br>{Name B}: Is that why everything is on fire?", tags: [] },
     { text: "{Name A}: Hey, what's wrong buddy?<br>{Name B}, drunk and crying as they pet like 5 different cats: I don't have enough hands", tags: [] },
@@ -91,7 +91,18 @@ const quotesLibrary = {
     { text: "{Name A}: I hate you<br>{Name B}: Hate is a strong word<br>{Name A}: Well, I have strong emotions", tags: [] },
     { text: "{Name A}: I don't believe in never<br>{Name B}: I don't believe in always<br>{Name A}: Well, opposites attract<br>{Name B}, raising an eyebrow: Never<br>{Name A}, smirking: Always", tags: [] },
     { text: "-Loud crash-<br>{Name A}: I'm having a problem", tags: [] },
-    { text: "{Name A}: Can I bother you for a second?<br>{Name B}: You always bother me, but go ahead", tags: [] }
+    { text: "{Name A}: Can I bother you for a second?<br>{Name B}: You always bother me, but go ahead", tags: [] },
+    { text: "{Name A}: I just saw {Name B} in the library cry for like five or six minutes and then their phone alarm went off and they just?? Stopped crying?? And went right back to work???<br>{Name C}: It's called time management, {Name A}", tags: [] },
+    { text: "{Name A}: It's in times like these that I really wish I had listened to what {Name B} told me when I was young<br>{Name C}: Why? What did they say?<br>{Name A}: I don't know, I didn't listen", tags: [] },
+    { text: "{Name A}: We are seven months into the year, what have you accomplished?<br>{Name B}: I don't like your tone.", tags: [] },
+    { text: "{Name A}: I'm old enough to do what I want<br>{Name B}: I'm calling {Name C}<br>{Name A}: WAIT! NO-", tags: [] },
+    { text: "{Name A}: Who broke the toaster<br>{Name B}: {Name E} broke it<br>{Name C}: It was {Name E}<br>{Name D}: {Name E} did it<br>{Name E}, feeling betrayed: ...<br>{Name E}: YOU PROMISED-", tags: [] },
+    { text: "{Name A}: I was thinking in the shower: If 666 is evil, then 25.806975801127 is the root of all evil<br>{Name B}: Do you have a calculator in your SHOWER?", tags: [] },
+    { text: "{Name A}: You're up to something aren't you?<br>{Name B}: You don't sound particularly upset about that<br>{Name A}: ...I'm not<br>{Name B}: And yet your eyes still hold displeasure<br>{Name A}: <br>{Name B}: You're upset I didn't include you, aren't you?<br>{Name A}: ... A little", tags: [] },
+    { text: "{Name A}, heading out for his 5am run:<br>{Name B}, going to bed:", tags: [] },
+    { text: "{Name A}: Lily?<br>{Name B}: What?<br>{Name A}: James hasn't texted either of us in five hours<br>{Name B}: I'll call hospitals, you call the police station", tags: [] },
+    { text: "{Name}: I hope no one lowkey hates me<br>{Name}: Highkey hate me, Hate me with every fiber of your being<br>{Name}: Go big or go home", tags: [] },
+    { text: "{Name A}: puts a get well soon card in an envelope and signs it to {Name B}<br>{Name C}: Oh, is {Name B} sick?<br>{Name A}: No<br>{Name A}: I just think {Name B} could do better<br>{Name C}: Real", tags: [] }
 
 
     // Add more quotes for the "Nothing" section
@@ -115,22 +126,24 @@ const quotesLibrary = {
     { text: "{Name A}: Do you have a self-care routine?<br>{Name B}: 'Keep going bitch', said to myself in different accents", tags: ["swearing"] },
     { text: "{Name A}: Ow! son of a bit-<br>{Name B}: You dislocated your shoulder. Want me to pop it back in?<br>{Name A}, grimacing: Yeah... okay<br>{Name B}: Alright, on 3... 0, 1<br>{Name B} pops {Name A}'s shoulder into place:<br>{Name A}: MOTHERFU- Who the hell starts with 0?!", tags: ["swearing"] },
     { text: "{Name A}, Stubs toe, trips over chair, drops can on foot, and hits bedpost for the millionth time:<br>{Name B}, from behind the newspaper: And I thought living with you would be boring...<br>{Name A}, with tears in his eyes and a choked whisper: You're a jackass", tags: ["swearing"] },
-    { text: "{Name A}: Could you at least try to be nice?<br>{Name B}: You're still breathing, that's me being fDucking nice, aDsshole", tags: ["swearing"] },
-    { text: "{Name A}: Is it hot in here or is it just you?<br>{Name B}: YOU'RE ON FIRE! STOP FLIRTING DUMBASS!", tags: ["swearing"] },
+    { text: "{Name A}: Could you at least try to be nice?<br>{Name B}: You're still breathing, that's me being fucking nice, asshole", tags: ["swearing"] },
     { text: "{Name A}, looking {Name B} dead in the eyes: Why would it be a bad idea for me to eat this entire marker?", tags: [] },
-    { text: "{Name A}, holding up his hand: A little slappy to make daddy happy?<br>{Name B}: wtf-", tags: ["swearing"] },
-    { text: "{Name A}: I can take care of myself! I don't need your charity!<br>{Name B}: You have a fever, I need to-<br>{Name A}: Don't touch me with your filthy hands!<br>{Name B}: Listen here, you little bDitch<br>{Name B}: I don't like you either, but I'm not going to let you suffer when I know I can do something to help. So shut the fDuck up and let me do my job", tags: ["swearing"] },
+    { text: "{Name A}, holding up their hand: A little slappy to make daddy happy?<br>{Name B}: wtf-", tags: ["swearing"] },
+    { text: "{Name A}: I can take care of myself! I don't need your charity!<br>{Name B}: You have a fever, I need to-<br>{Name A}: Don't touch me with your filthy hands!<br>{Name B}: Listen here, you little bitch<br>{Name B}: I don't like you either, but I'm not going to let you suffer when I know I can do something to help. So shut the fuck up and let me do my job", tags: ["swearing"] },
+    { text: "{Name A}: {Name B} talks in their sleep sometimes, and it's adorable<br>{Name B}, sleeping: Fight me... you motherfucker... square up bitch...", tags: ["swearing"] },
+    { text: "{Name A}: GUYS WE NEED TO GET SLUTTIER<br>{Name B}: ON IT BOSS!<br>{Name B} changes from their regular t-shirt into an identical t-shirt that just has the word COCK on it:", tags: ["swearing"] },
+    { text: "{Name A}, walking out of the bathroom:<br>{Name A}: What the fuck!<br>{Name B}, lying face first on the ground:<br>{Name B}: Finally!<br>{Name A}:<br>{Name B}, getting up:<br>{Name B}: Your showers take too long<br>{Name A}:<br>{Name B}: Move", tags: ["swearing"] }
 
 
     // Add more swearing quotes
   ],
   shipping: [
-    { text: "{Name A}: {Name B}, {Name C} loves you<br>{Name B}: So I've heard<br>{Name A}: So will you go out with them?<br>{Name B}: Of course not.<br>{Name A}: PLEASE, {Name B}!<br>{Name B}: I'm sorry, but no.<br>{Name A}: You don't understand what you're doing!<br>{Name B}: I'm saying no to going out with the most arrogant guy I know<br>{Name A}: No, he's holding my chocolates hostage until I get you to agree to date him, {Name B} PLEASE!!", tags: ["shipping"] },
+    { text: "{Name A}: {Name B}, {Name C} loves you<br>{Name B}: So I've heard<br>{Name A}: So will you go out with them?<br>{Name B}: Of course not.<br>{Name A}: PLEASE, {Name B}!<br>{Name B}: I'm sorry, but no.<br>{Name A}: You don't understand what you're doing!<br>{Name B}: I'm saying no to going out with the most arrogant guy I know<br>{Name A}: No, their holding my chocolates hostage until I get you to agree to date him, {Name B} PLEASE!!", tags: ["shipping"] },
     { text: "{Name A}: I'm kind of crushing on someone, but I'm worried about telling you who it is because you're not going to like it<br>{Name B}: Just rip the bandage off<br>{Name A}: It's {Name C}<br>{Name B}: Put the bandage back on.", tags: ["shipping"] },
     { text: "{Name A}: Do you think your family likes me?<br>{Name B}: My mum literally begged you to marry me.", tags: ["shipping"] },
     { text: "{Name A}: You amaze me and scare me.<br>{Name A}: I can't tell if I'm attracted to it or want to run away.<br>{Name B}: I'm hoping it's the former. But I like it when people are scared of me.<br>{Name A}: Yeah, it's definitely both.", tags: ["shipping"] },
     { text: "{Name A}: Just be yourself<br>{Name B}: 'Be myself'? {Name A}, I have one day to win over {Name C} over. How long did it take before you guys started liking me?<br>{Name D}: Couple weeks<br>{Name E}: Six months<br>{Name F}: Jury's still out<br>{Name B}: See, Person A?<br>{Name B}: 'Be myself'. What kind of garbage advice is that?", tags: ["shipping"] },
-    { text: "{Name A}: I heard you like bad guys<br>{Name B}:<br>{Name A}: Tell them, {Name C}<br>{Name C}: He's the worst guy I've ever met", tags: ["shipping"] },
+    { text: "{Name A}: I heard you like bad guys<br>{Name B}:<br>{Name A}: Tell them, {Name C}<br>{Name C}: Their's the worst guy I've ever met", tags: ["shipping"] },
     { text: "{Name A}, to {Name B}: Since we're in a relationship now, your clothes are now my clothes too. Don't ask me why I have your shirt on. This is our shirt", tags: ["shipping"] },
     { text: "{Name A}: I hate you<br>{Name B}, in their head: Enemies to lovers, slow burn. Angst with happy ending. 300k+ words", tags: ["shipping"] },
     { text: "{Name A}: I'm breaking up with you<br>{Name B}: No you're not.<br>{Name B}: Here, have a slice of cake instead", tags: ["shipping"] },
@@ -144,10 +157,16 @@ const quotesLibrary = {
     { text: "{Name A}: Did {Name B} just tell me they loved me for the first time?<br>{Name C}: Yeah, they did<br>{Name A}: And did I just do finger guns back?<br>{Name C}: Yeah, you did", tags: ["shipping"] },
     { text: "{Name A}, trying to flirt with {Name B}: You have a face<br>{Name B}: Yes, I do<br>{Name A}: You have a pretty face<br>{Name B}: Thanks<br>{Name A}: I like your face<br>{Name B}: Why did I fall in love with you again?", tags: ["shipping"] },
     { text: "{Name A}: Loving you is as easy as breathing<br>{Name B}: But you're asthmatic?<br>{Name A}: Your point?", tags: ["shipping"] },
-    { text: "{Name A}, seeing {Name B} and {Name C} holding hands: Sooo, who finally confessed?<br>{Name B}, with a proud smile: It was me! I made sure it was short and sweet<br>{Name C}: You yelled 'Listen here, you little shit, I have feelings for you, and it's time you acknowledged them'... From the roof<br>{Name B}: It worked though", tags: ["shipping"] }
+    { text: "{Name A}, seeing {Name B} and {Name C} holding hands: Sooo, who finally confessed?<br>{Name B}, with a proud smile: It was me! I made sure it was short and sweet<br>{Name C}: You yelled 'Listen here, you little shit, I have feelings for you, and it's time you acknowledged them'... From the roof<br>{Name B}: It worked though", tags: ["shipping"] },
+    { text: "{Name A}: I love {Name B} so much I have a whole Pinterest board of them and an album on my phone and their set as my wallpaper and AND AWHGHWGWGWH I LOVE THEM SO MUCH", tags: ["shipping"] },
+    { text: "{Name A}: I have a feeling if {Name B} were to even propose to {Name C}, instead of 'Will you marry me,' they would say 'You will marry me.'", tags: ["shipping"] },
+    { text: "{Name A}: You're jealous?<br>{Name B}: Me? Jealous? Over you? Absolutely I am, you're mine", tags: ["shipping"] },
+    { text: "{Name A}: Logan's lip balm tasted really hoos, like eucalyptus<br>{Name B}: You guys KISSED?<br>{Name C}: No, {Name A} just ate my lip balm", tags: ["shipping"] },
+    { text: "{Name A} suddenly kissed {Name B}:<br>{Name B}, breaking the kiss: - Whoa! Whoa! Whoa! What's going on? you and I just made out! You and I are making out?<br>{Name A}: Well, not anymore<br>{Name B}: But we don't do that!<br>{Name A}: I know, I just thought it would be fun<br>{Name B}: How drunk are you?<br>{Name A}: Drunk enough to know that I want to do this, Not so drunk that you should feel guilty about taking advantage<br>{Name B}:<br>{Name B}: That's the perfect amount!<br>{Name A}: Okay!<br>{Name A} and {Name B} start kissing again", tags: ["shipping"] },
+    { text: "{Name A}: They're mine<br>{Name B}: No, they're mine<br>{Name C}, sitting down at the table: What are they on about now?<br>{Name D}: They're fighting over James<br>{Name E}, watching in awe:<br>{Name C}: They're getting awfully close<br>{Name A} and {Name B} start kissing:<br>{Name C}: I think this might be the best day of James' life<br>{Name E}, staring:<br>{Name D}: What an interesting development", tags: ["shipping"] },
 
 
-    // Add more shipping quotes
+    // Add more shipping quotes  
   ],
   violence: [
     { text: "{Name A}: What are you, 5?<br>{Name B}, snorts: Yeah, 5 heads taller than you<br>{Name A}:<br>{Name B}:<br>{Name B}: I'm sorry don't kill me please", tags: ["violence"] },
@@ -186,11 +205,13 @@ const quotesLibrary = {
     { text: "{Name A}: It isn't funny! This is serious!<br>{Name B}: It's pretty funny<br>{Name C}: It's fDucking hilarious actually<br>{Name D}, twitching on the floor, still wheezing with laughter:", tags: ["swearing"] },
     { text: "{Name A}: You look familiar...<br>{Name B}: So do you, where do I know you from?<br>-Long pause-<br>{Name A} and {Name B}: Jail", tags: [] },
     { text: "{Name A}, choking on food:<br>{Name B}: Jeez {Name A}, don't die on me!<br>{Name A}: Don't tell me what to do, I'll die whenever the hell I want!", tags: ["violence"] },
-    { text: "{Name A}: Can I kill them?<br>{Name B}: No<br>{Name A}: Why not?<br>{Name B}: He's immortal<br>{Name A}: So you're saying that I get to kill him more than once?", tags: ["violence"] }
+    { text: "{Name A}: Can I kill them?<br>{Name B}: No<br>{Name A}: Why not?<br>{Name B}: He's immortal<br>{Name A}: So you're saying that I get to kill him more than once?", tags: ["violence"] },
+    { text: "{Name A}: Sweet dog you got there<br>Police: Yep, our new drug sniffing dog<br>{Name A}: Still training then?<br>Police: What do you mean?<br>{Name A}: Never mind", tags: ["violence"] },
+    { text: "Lily: WHAT'S YOUR TYPE<br>Siri: Anything, honestly, but nerds especially<br>Lily, desperately, as Siri bleeds out: YOUR BLOOD TYPE<br>Siri: Oh! B positive<br>Lily: DON'T TRY TO CHEER ME UP! JUST TELL ME YOUR BLOOD TYPE", tags: ["violence"] }
 
 
 
-    // Add more violence quotes
+    // Add more violence quotes 
   ],
   swearing_shipping: [
     { text: "{Name A}: So did you kiss them?<br>{Name B}: No, the moment wasn't right<br>{Name A}:<br>{Name B}: Look, {Name C} could be my future partner. I want our kiss to be amazing<br>{Name A}: Aw, {Name B}, that's so sweet. You chickened out like a little bitch", tags: ["shipping", "swearing"] },
@@ -198,12 +219,19 @@ const quotesLibrary = {
     { text: "{Name A}: You're such a fucking loser {Name B}<br>{Name B}: Well, you married me, so who's the REAL loser here?<br>{Name A}: You are not allowed to use this marriage against me<br>{Name B}: I am 100% allowed to use this marriage against you.", tags: ["shipping", "swearing"] },
     { text: "{Name A}: {Name C} has been saying that we are a couple<br>{Name B}: I wish<br>{Name A}: What?<br>{Name B}: I said that bitch", tags: ["shipping", "swearing"] },
     { text: "{Name A} drunk as hell, to {Name B}: {Name B} thinks he knows everything but he has no idea I'm in love with {Name C}<br>{Name B}, with a criminal offensive side eye: Shut. Up.<br>{Name A}: Oops! Sorry! My bad<br>{Name A}, to {Name C}: {Name B} thinks he knows everything but he has no idea I'm in love with {Name C}<br>{Name C}: Y-you're in love with me?!<br>{Name A}: ...<br>{Name A}: Where the fuck is {Name D} when I am talking to them?!", tags: ["shipping", "swearing"] },
+    { text: "{Name A}: Is it hot in here or is it just you?<br>{Name B}: YOU'RE ON FIRE! STOP FLIRTING DUMBASS!", tags: ["shipping", "swearing"] },
+    { text: "{Name A}: DEKU.<br>{Name B}, startled: Wh- yeah?<br>{Name A}: WHY THE FDUCK IS MY NAME IN YOUR PHONE 'My dorito whore'?!?!?!<br>{Name B}: I-<br>{Name A}:<br>{Name B}:<br>{Name B}: You can't BLAME me. Look at you!", tags: ["swearing", "shipping"] },
+    { text: "{Name A}, walks into the room after football practice:<br>{Name B}: God they are so fit<br>{Name C}: They called you a dumbaDass<br>{Name B}: I know and it was so hot", tags: ["shipping", "swearing"] },
 
 
     // Add more swearing and shipping quotes
   ],
   shipping_violence: [
     { text: "{Name A}: There's no crime in being a thief<br>{Name B}: What a thief does is take people's property without their permission, which is a crime<br>{Name C}: Not when I do it. I'll steal your heart and you wouldn't mind<br>{Name B}: ...<br>{Name B}: That was very smooth<br>{Name A}: I'm gonna steal both your organs and money", tags: ["shipping", "swearing"] },
+    { text: "{Name A}: Sometimes facing your fears head on is the best way to realise they aren't actually scary<br>{Name B}: Yeah, I totally agree. Like when I climbed a mountain during a lightning storm with a metal pole and demanded to get struck by lightning. I didn't even get hurt and now I'm not even scared of god anymore<br>{Name C}: You mean you did that without me?!<br>{Name D}: Oh my fucking go-<br>{Name E}: you did WHAT?", tags: ["swearing", "violence"] },
+    { text: "{Name A} trying to set up a trap for {Name B}: If we ever broke up, who would be the first person you'd call?<br>{Name B} without hesitation: No one<br>{Name C}: What?<br>{Name B} sighs and takes {Name C}'s face in his hands: No one. We'll never break up. You're stuck with me forever<br>{Name C} blushes and tries to hide a smile: Okay...<br>- {Name D} and {Name E} watching from afar-<br>{Name D}: {Name E}?<br>{Name E}: I would call the police and report you for that abandoned house you burned down last week", tags: ["shipping", "violence"] },
+
+
     // Add more shipping and violence quotes
   ],
   violence_swearing: [
@@ -356,5 +384,7 @@ function getSelectedTags() {
     selectedTags.push("violence");
   }
 
+  return selectedTags;
+}
   return selectedTags;
 }

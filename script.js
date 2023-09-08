@@ -1,5 +1,5 @@
 const quotesLibrary = {
-  nothing: [
+  nothing: [ 
     { text: "{Name A}: It's dark in here, anyone got a torch?<br>{Name B}: yeah, two secs<br>{Name B}, cracks {Name C}'s back like a glow stick:<br>{Name C}, starts glowing:<br>{Name A}, horrified:", tags: [] },
     { text: "texting<br>{Name A}: HI!<br>{Name B}: Hey!<br>{Name A}: HOW ARE YOU?<br>{Name B}: I'm great! But why are you typing in capitals?<br>{Name A}: YOU SAID YOU HATED SMALL TALK SO I MADE IT BIG JUST FOR YOU :)<br>{Name A}: {Name B}?<br>{Name A}: WHY AREN'T YOU REPLYING?<br>{Name C} on {Name B}'s phone: {Name A}, it's {Name C}, {Name B} is currently crying", tags: [] },
     { text: "{Name A}: {Name B}, I want to give you some advice<br>{Name B}: ... right okay<br>{Name A}: If a door ever says 'push', you pull. It's not directions, it's a challenge.", tags: [] },
@@ -132,7 +132,8 @@ const quotesLibrary = {
     { text: "{Name A}: I can take care of myself! I don't need your charity!<br>{Name B}: You have a fever, I need to-<br>{Name A}: Don't touch me with your filthy hands!<br>{Name B}: Listen here, you little bitch<br>{Name B}: I don't like you either, but I'm not going to let you suffer when I know I can do something to help. So shut the fuck up and let me do my job", tags: ["swearing"] },
     { text: "{Name A}: {Name B} talks in their sleep sometimes, and it's adorable<br>{Name B}, sleeping: Fight me... you motherfucker... square up bitch...", tags: ["swearing"] },
     { text: "{Name A}: GUYS WE NEED TO GET SLUTTIER<br>{Name B}: ON IT BOSS!<br>{Name B} changes from their regular t-shirt into an identical t-shirt that just has the word COCK on it:", tags: ["swearing"] },
-    { text: "{Name A}, walking out of the bathroom:<br>{Name A}: What the fuck!<br>{Name B}, lying face first on the ground:<br>{Name B}: Finally!<br>{Name A}:<br>{Name B}, getting up:<br>{Name B}: Your showers take too long<br>{Name A}:<br>{Name B}: Move", tags: ["swearing"] }
+    { text: "{Name A}, walking out of the bathroom:<br>{Name A}: What the fuck!<br>{Name B}, lying face first on the ground:<br>{Name B}: Finally!<br>{Name A}:<br>{Name B}, getting up:<br>{Name B}: Your showers take too long<br>{Name A}:<br>{Name B}: Move", tags: ["swearing"] },
+    { text: "{Name A}: It isn't funny! This is serious!<br>{Name B}: It's pretty funny<br>{Name C}: It's fucking hilarious actually<br>{Name D}, twitching on the floor, still wheezing with laughter:", tags: ["swearing"] },
 
 
     // Add more swearing quotes
@@ -202,7 +203,6 @@ const quotesLibrary = {
     { text: "{Name A}: I'M GONNA GO HOME AND DRINK A WHOLE GLASS OF WEED", tags: ["violence"] },
     { text: "{Name A}, on the second floor during maths: So, like, how far do you think the distance is from that window to that ground?<br>{Name B}: Enough", tags: ["violence"] },
     { text: "{Name A}: I am in pain<br>{Name B}: Do you mean emotional pain or-<br>{Name B}: Oh God! That's a lot of blood<br>{Name A}: Pain, yes", tags: ["violence"] },
-    { text: "{Name A}: It isn't funny! This is serious!<br>{Name B}: It's pretty funny<br>{Name C}: It's fDucking hilarious actually<br>{Name D}, twitching on the floor, still wheezing with laughter:", tags: ["swearing"] },
     { text: "{Name A}: You look familiar...<br>{Name B}: So do you, where do I know you from?<br>-Long pause-<br>{Name A} and {Name B}: Jail", tags: [] },
     { text: "{Name A}, choking on food:<br>{Name B}: Jeez {Name A}, don't die on me!<br>{Name A}: Don't tell me what to do, I'll die whenever the hell I want!", tags: ["violence"] },
     { text: "{Name A}: Can I kill them?<br>{Name B}: No<br>{Name A}: Why not?<br>{Name B}: He's immortal<br>{Name A}: So you're saying that I get to kill him more than once?", tags: ["violence"] },

@@ -386,5 +386,3 @@ function getSelectedTags() {
 
   return selectedTags;
 }
-  return selectedTags;
-}
